@@ -1,9 +1,9 @@
 body{
-    background-image: url(hatter1.jpg);
+    background-image: url(hatter2.jpg);
     min-width: auto;
     max-width: auto;
     height: auto;
-}
+
 }
 
 #fejlec{
@@ -12,7 +12,7 @@ background-color: blue;
 }
 
 #cim{
-
+    size: auto;
 }
 
 #szoveg{
