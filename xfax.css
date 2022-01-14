@@ -6,9 +6,10 @@ body{
 }
 .keret{
     background-color:rgba(255,255,255,0.7);
-    width:50%;
+    width: 50%;
     margin: auto;
     padding:5px 5px 5px 5px;
+    border-radius:10px;
 }
 .programok{
     margin:8px 8px 8px 8px;
@@ -33,9 +34,14 @@ h2{
     font-weight: bold;
     padding: 30px 30px 30px 10px;
 }
-img{
+.fa{
     width: 35%;
     float: right;
+    border-radius:10px;
+}
+.fa2{
+    width: 35%;
+    float: left;
     border-radius:10px;
 }
 
@@ -44,16 +50,14 @@ header{
     width: 50%;
     margin: auto;
     
+    
 }
 
-
-/* új rész*/
-
 p{
-    letter-spacing: 2px; /*betűk közti távolság*/
+    letter-spacing: 2px; /*betűk közti távolság*/               
     line-height: 120%; /*sor magassága: normal, cm, px, %, 1.5*/
-    text-align: justify; /*sorkizárt*/
-    text-indent: 10px; /*első sor behúzás: px, %, em*/
+    text-align: justify; /*sorkizárt*/                          
+    text-indent: 10px; /*első sor behúzás: px, %, em*/          
 }
 
 a:hover{
@@ -86,3 +90,6 @@ ul {
   li a:hover{
     background-color: rgb(16, 0, 59);
   }
+.gomb{
+    
+}
