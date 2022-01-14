@@ -1,0 +1,88 @@
+body{
+    background-image: url("hatter2.webp");
+    background-repeat: repeat;
+    color: rgb(14, 10, 73);
+    scale: 100%;
+}
+.keret{
+    background-color:rgba(255,255,255,0.7);
+    width:50%;
+    margin: auto;
+    padding:5px 5px 5px 5px;
+}
+.programok{
+    margin:8px 8px 8px 8px;
+}
+.programok2{
+    margin:8px 8px 8px 8px;
+    background: rgba(119, 119, 119, 0.5);
+}
+.programok3{
+    background-color: rgb(26, 26, 26);
+    margin:8px 8px 8px 8px;
+    color: white
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 30px 30px 30px 10px;
+}
+img{
+    width: 180px;
+    float: right;
+    border-radius:10px;
+}
+
+header{
+    height: 40px;
+    width: 50%;
+    margin: auto;
+    
+}
+
+
+/* új rész*/
+
+p{
+    letter-spacing: 2px; /*betűk közti távolság*/
+    line-height: 120%; /*sor magassága: normal, cm, px, %, 1.5*/
+    text-align: justify; /*sorkizárt*/
+    text-indent: 10px; /*első sor behúzás: px, %, em*/
+}
+
+a:hover{
+    color: white;
+    text-decoration-line: auto; /*lesz aláhúzás*/
+}
+
+li {
+    display: inline;
+    float: left;
+    border-top: rgb(0, 52, 121);
+}
+  
+li a {
+    display: block;
+    background-color:rgb(0, 52, 121);
+    color: white;
+    text-align: right;
+    padding: 10px 16px;
+}
+
+ul {
+    list-style-type: inherit;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+
+  li a:hover{
+    background-color: rgb(16, 0, 59);
+  }

@@ -1,20 +1,23 @@
-body{
-    background-image: url(hatter2.jpg);
-    min-width: auto;
-    max-width: auto;
-    height: auto;
-
+.body{
+    background-image: url(hatter2.webp);
+    background-repeat: repeat;
+    color: rgb(14, 10, 73);
 }
 
-#fejlec{
+.fejlec{
 
 background-color: blue;
 }
 
-#cim{
+.cim{
     size: auto;
 }
 
-#szoveg{
+.szoveg{
 
 }
+.keret{
+    background-color:rgba(255,255,255,0.7);
+    width:50%;
+    margin: auto;
+    padding:5px 5px 5px 5px;
