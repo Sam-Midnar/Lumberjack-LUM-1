@@ -1,1 +1,1 @@
-https://github.com/MilanSamuello/Lumberjack/fa_html.html
+https://MilanSamuello.github.io/Lumberjack/fa_html.html
