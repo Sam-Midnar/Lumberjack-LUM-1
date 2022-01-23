@@ -39,11 +39,12 @@ h2{
     padding: 30px 30px 30px 10px;
 }
 .fa{
-    width: 20%;
+    height: 45vh;
     float: right;
+    border-radius:10px;
 }
 .fa2{
-    width: 25%;
+    height: 45vh;
     float: left;
     border-radius:10px;
 }
