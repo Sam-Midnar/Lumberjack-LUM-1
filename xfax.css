@@ -6,6 +6,11 @@ body{
     width: 75%;
     margin: auto;
 }
+header{
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
 .keret{
     background-color:rgba(255, 255, 255, 0.8);
     padding:5px 5px 5px 5px;
@@ -49,10 +54,13 @@ h2{
     border-radius:10px;
 }
 
-header{
-    height: auto;
-    width: 70%;
-    margin: auto;
+.fak{
+    width: 270px; 
+    padding: 30px; 
+    margin: 10px;
+    border-radius: 250px;
+    box-sizing:border-box; /*a teljes doboz valóban 200px széles marad*/
+    text-align: center;
 }
 
 p{
@@ -94,14 +102,7 @@ ul {
 .td{
     size: 1px;
 }
-.fak{
-    width: 270px; 
-    padding: 30px; 
-    margin: 10px;
-    border-radius: 250px;
-    box-sizing:border-box; /*a teljes doboz valóban 200px széles marad*/
-    text-align: center;
-}
+
 *gallery display */
 photos {
   display: block;
