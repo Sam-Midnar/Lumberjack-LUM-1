@@ -1,0 +1,147 @@
+body{
+    background-image: url("hatter2.webp");
+    background-repeat: repeat;
+    color: rgb(14, 10, 73);
+    scale: 100%;
+    width: 75%;
+    margin: auto;
+}
+.keret{
+    background-color:rgba(255, 255, 255, 0.8);
+    padding:5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+.programok{
+    text-align: center;
+    margin:8px 8px 8px 8px;
+}
+.programok2{
+    text-align: center;
+    margin:8px 8px 8px 8px;
+    background: rgba(119, 119, 119, 0.5);
+}
+.programok3{
+    text-align: center;
+    background-color: rgb(26, 26, 26);
+    margin:8px 8px 8px 8px;
+    color: white;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 30px 30px 30px 10px;
+}
+.fa{
+    height: 45vh;
+    float: right;
+    border-radius:10px;
+}
+.fa2{
+    height: 45vh;
+    float: left;
+    border-radius:10px;
+}
+
+.fak{
+    width: 270px; 
+    padding: 30px; 
+    margin: 10px;
+    box-sizing:border-box; /*a teljes doboz valóban 200px széles marad*/
+    text-align: center;
+}
+
+header{
+    height: auto;
+    width: 70%;
+    margin: auto;
+}
+
+p{
+    letter-spacing: 2px; /*betűk közti távolság*/               
+    line-height: 120%; /*sor magassága: normal, cm, px, %, 1.5*/
+    text-align: left; /*sorkizárt*/                          
+    text-indent: 10px; /*első sor behúzás: px, %, em*/          
+}
+
+a:hover{
+    color: white;
+    text-decoration-line: auto; /*lesz aláhúzás*/
+}
+
+li {
+    display: inline;
+    float: center;
+    border-top: rgb(0, 52, 121);
+}
+  
+li a {
+    display: block;
+    background-color:rgb(0, 52, 121);
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+ul {
+    list-style-type: inherit;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li a:hover{
+    background-color: rgb(16, 0, 59);
+  }
+.td{
+    size: 1px;
+}
+
+*gallery display */
+photos {
+  display: block;
+}
+
+.photos ul {
+    list-style: none;
+}
+
+.photos ul li { 
+    display: inline;
+    list-style: none;
+    float: center;
+    padding: 0 10px 0 0;
+    text-align:center; 
+}
+
+.photos ul li span a {
+    background-color: rgba(90, 90, 90, 0.5);
+}
+
+.photos ul li a {
+
+  display: block;
+  
+  margin-right: 10px;
+  margin-bottom: 7px;
+  opacity: 0.75;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  border-radius: 10px;
+}
+.photos ul li a:hover {
+  opacity: 2.0;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.kep{
+    border-radius: 250px;
+}
