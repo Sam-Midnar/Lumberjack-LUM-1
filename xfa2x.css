@@ -39,7 +39,7 @@ h2{
     padding: 30px 30px 30px 10px;
 }
 .fa{
-    height: 45vh;
+    height: 38vh;
     float: right;
     border-radius:250px;
 }
@@ -67,7 +67,7 @@ p{
     letter-spacing: 2px; /*betűk közti távolság*/               
     line-height: 120%; /*sor magassága: normal, cm, px, %, 1.5*/
     text-align: left; /*sorkizárt*/                          
-    text-indent: 10px; /*első sor behúzás: px, %, em*/          
+    text-indent: 10px; /*első sor behúzás: px, %, em*/      
 }
 
 a:hover{
